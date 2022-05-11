@@ -27,4 +27,4 @@ LIBS += -lgcov
 
 DISTFILES += input/input.txt
 
-INCLUDEPATH += ../editor/text
+INCLUDEPATH += ../text

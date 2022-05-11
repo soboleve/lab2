@@ -11,3 +11,5 @@ HEADERS = $$files("*.h", true)
 QMAKE_CFLAGS += -fprofile-arcs -ftest-coverage
 
 LIBS += -lgcov
+
+INCLUDEPATH += ../text
