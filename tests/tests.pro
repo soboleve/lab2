@@ -25,4 +25,4 @@ HEADERS += tests.h
 
 LIBS += -lgcov
 
-DISTFILES += input.txt
+DISTFILES += input/input.txt
