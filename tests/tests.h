@@ -23,7 +23,7 @@ text load_text(const char *filename)
     return text;
 }
 
-const char *inputFile = "input.txt";
+const char *inputFile = INPUTDIR "/input.txt";
 
 /* Макрос для перехвата вывода */
 #define getOutput(func) \
