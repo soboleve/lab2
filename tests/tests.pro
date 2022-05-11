@@ -23,7 +23,7 @@ SOURCES += main.cpp \
 
 HEADERS += tests.h
 
-LIBS += -lgcov
+LIBS += -L../text -ltext -lgcov
 
 DISTFILES += input/input.txt
 
