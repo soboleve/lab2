@@ -28,4 +28,4 @@ HEADERS += tests.h
 
 LIBS += -lgcov
 
-DISTFILES += $$PWD/input.txt
+DISTFILES += input.txt

@@ -232,12 +232,15 @@ TEST(c1n_tests, c1n_test)
     text txt = load_text(inputFile);
 
     const char* excpected_line1 = "123\nwasd1\nabc\n\nqwert|\n";
+    const char* excpected_line2 = "wasd1\nabc\n\nqwert\n123|\n";
 
     string output;
 
     getOutput(c1n(txt);show(txt););
-
     ASSERT_EQ(output, excpected_line1);
+
+    getOutput(c1n(txt);show(txt););
+    ASSERT_EQ(output, excpected_line2);
 }
 
 TEST(c1n_tests, c1n_empty_file)
