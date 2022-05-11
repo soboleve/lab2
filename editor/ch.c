@@ -16,7 +16,9 @@ void change(text txt)
 
     char buff[MAXLINE] = "";
 
-    strncpy(buff, txt->cursor->line->contents, strlen(txt->cursor->line->contents) - 1);
+    strcpy(buff, txt->cursor->line->contents);
+
+    buff[strlen(buff) - 1] = 0;
 
     int pos = txt->cursor->position - 1;
 

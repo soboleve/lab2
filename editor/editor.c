@@ -30,6 +30,7 @@ int main()
         printf("ed > ");
 
         /* Получаем команду */
+
         fgets(cmdline, MAXLINE, stdin);
 
         /* Извлекаем имя команды */
