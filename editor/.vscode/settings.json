@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "chrono": "c",
+        "text.h": "c",
+        "stdio.h": "c",
+        "array": "c",
+        "deque": "c",
+        "list": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "common.h": "c"
+    }
+}
