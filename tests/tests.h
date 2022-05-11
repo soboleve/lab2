@@ -45,6 +45,7 @@ const char *inputFile = INPUTDIR "input.txt";
 TEST(save_tests, save_no_write_attribute)
 {
    text txt = load_text(inputFile);
+
    string output;
 
    getOutput(save(txt, "/var"););
