@@ -31,5 +31,7 @@ void load(text txt, const char *filename)
     /* Считываем содержимое строка за строкой */
     while (fgets(buf, MAXLINE, f)) {
         append_line(txt, buf);
+
+    fclose(f);
     }
 }
