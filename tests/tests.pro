@@ -23,7 +23,6 @@ SOURCES += main.cpp \
 
 HEADERS += tests.h
 
-
 DISTFILES += input/input.txt
 
 INCLUDEPATH += ../text
