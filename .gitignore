@@ -1,5 +1,4 @@
 *.o
-*.a
 Makefile
 editor/Makefile
 editor/text/Makefile
