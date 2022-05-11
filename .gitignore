@@ -1,0 +1,6 @@
+*.o
+*.a
+Makefile
+editor/Makefile
+editor/text/Makefile
+editor/editor

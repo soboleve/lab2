@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2022-05-11T17:50:18. -->
+<!-- Written by QtCreator 6.0.2, 2022-05-11T18:05:52. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -268,7 +268,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/eug/build-qmake-gtest-Desktop_Qt_6_2_4_GCC_64bit-Debug/tests/../editor</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/eug/build-qmake-gtest-Desktop_Qt_6_2_4_GCC_64bit-Debug/tests</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
