@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <assert.h>
 #include "common.h"
-#include "text/text.h"
+#include "text.h"
 #include <string.h>
-#include "text/_text.h"
+#include "_text.h"
 
 void c1n(text txt)
 {

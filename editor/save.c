@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "text/text.h"
+#include "text.h"
 #include "common.h"
 #include "assert.h"
 

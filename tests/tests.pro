@@ -19,9 +19,17 @@ SOURCES += main.cpp \
            ../editor/showlineswithdigits.c \
            ../editor/ch.c \
            ../editor/c1n.c \
-           $$files("../editor/text/*.c", true)
+           ../editor/append_line.c \
+           ../editor/create_text.c \
+           ../editor/process_forward.c \
+           ../editor/remove_all.c \
 
-HEADERS += tests.h
+
+HEADERS += tests.h \
+           _text.h \
+           text.h
+
+LIBS += -lgcov
 
 DISTFILES += input/input.txt
 

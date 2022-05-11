@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "common.h"
-#include "text/text.h"
+#include "text.h"
 #include "string.h"
 #include "ctype.h"
 

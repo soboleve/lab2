@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 #include "common.h"
-#include "text/text.h"
-#include "text/_text.h"
+#include "text.h"
+#include "_text.h"
 #include <string.h>
 
 void change(text txt)

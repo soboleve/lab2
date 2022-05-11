@@ -1,4 +1,4 @@
-#include "text/_text.h"
+#include "_text.h"
 
 void mwcursor(text txt, int toIndex, int toPos)
 {

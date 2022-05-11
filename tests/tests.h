@@ -9,8 +9,8 @@ using namespace std;
 
 extern "C"
 {
-#include <../editor/text/text.h>
-#include <../editor/text/_text.h>
+#include <../editor/text.h>
+#include <../editor/_text.h>
 #include "../editor/common.h"
 }
 
