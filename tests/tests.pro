@@ -32,5 +32,3 @@ HEADERS += tests.h \
 LIBS += -lgcov
 
 DISTFILES += input/input.txt
-
-INCLUDEPATH += ../text
