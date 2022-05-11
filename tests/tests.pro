@@ -26,3 +26,5 @@ HEADERS += tests.h
 LIBS += -lgcov
 
 DISTFILES += input/input.txt
+
+INCLUDEPATH += ../editor/text
