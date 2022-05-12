@@ -1,6 +1,7 @@
 *.o
 *.gcda
 *.gcno
+qmake-gtest.pro.user
 .qmake.stash
 Makefile
 editor/Makefile

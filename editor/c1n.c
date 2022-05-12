@@ -19,7 +19,9 @@ void c1n(text txt)
 
     append_line(txt, buff);
 
-    node *next = txt->begin->next;
+    node *p = txt->begin;
 
-    txt->begin = next;
+    txt->begin = p->next;
+
+    free(p);
 }
